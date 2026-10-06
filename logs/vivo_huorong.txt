@@ -1,0 +1,136 @@
+=== 火绒/Lenovo AV 相关服务 ===
+
+Name                    DisplayName                          Status StartType
+----                    -----------                          ------ ---------
+HRWSCCtrl               Lenovo Windows Security Center      Stopped    Manual
+LenovoFnAndFunctionKeys Lenovo Fn and function keys service Running Automatic
+LenovoPcManagerService  LenovoPcManagerService              Running Automatic
+
+
+=== 火绒/Lenovo AV 相关进程 ===
+
+  Id Name                       Path
+  -- ----                       ----
+5784 Lenovo.Modern.ImController 
+5836 LenovoPcManagerService     
+5852 LenovoUtilityService       
+2328 LnvSvcFdn                  
+
+
+=== 火绒目录探测 ===
+EXISTS: C:\Program Files (x86)\Lenovo
+
+FullName
+--------
+C:\Program Files (x86)\Lenovo\LegionZone
+C:\Program Files (x86)\Lenovo\Lsf
+C:\Program Files (x86)\Lenovo\LegionZone\2.0.19.7291
+C:\Program Files (x86)\Lenovo\LegionZone\AppData
+C:\Program Files (x86)\Lenovo\LegionZone\LegionzoneData.db
+C:\Program Files (x86)\Lenovo\LegionZone\lz_mcp_server.exe
+C:\Program Files (x86)\Lenovo\LegionZone\LZCmdPlugin.dll
+C:\Program Files (x86)\Lenovo\LegionZone\LZMain.exe
+C:\Program Files (x86)\Lenovo\LegionZone\LZService.exe
+C:\Program Files (x86)\Lenovo\LegionZone\LZStrategy.exe
+C:\Program Files (x86)\Lenovo\LegionZone\LZUnInstall.exe
+C:\Program Files (x86)\Lenovo\LegionZone\LZUpdate.exe
+C:\Program Files (x86)\Lenovo\Lsf\Lsf_Cleanup.exe
+C:\Program Files (x86)\Lenovo\Lsf\Lsf_Uninstall.exe
+C:\Program Files (x86)\Lenovo\Lsf\Lsf.exe
+C:\Program Files (x86)\Lenovo\Lsf\Lsf.ico
+C:\Program Files (x86)\Lenovo\Lsf\prompt.dll
+
+EXISTS: C:\ProgramData\Lenovo
+
+FullName
+--------
+C:\ProgramData\Lenovo\devicecenter
+C:\ProgramData\Lenovo\EULA
+C:\ProgramData\Lenovo\FnHotkeyUtility
+C:\ProgramData\Lenovo\ImController
+C:\ProgramData\Lenovo\LDF
+C:\ProgramData\Lenovo\LeAppStore
+C:\ProgramData\Lenovo\LegionZone
+C:\ProgramData\Lenovo\LegionZone_PcmPlgin
+C:\ProgramData\Lenovo\LENOVO_ZONE
+C:\ProgramData\Lenovo\LenovoSafe
+C:\ProgramData\Lenovo\SGUID
+C:\ProgramData\Lenovo\SmartEngine
+C:\ProgramData\Lenovo\Udc
+C:\ProgramData\Lenovo\devicecenter\AD
+C:\ProgramData\Lenovo\devicecenter\AppConfig
+C:\ProgramData\Lenovo\devicecenter\Beginner
+C:\ProgramData\Lenovo\devicecenter\cicada
+C:\ProgramData\Lenovo\devicecenter\Cleanup
+C:\ProgramData\Lenovo\devicecenter\config
+C:\ProgramData\Lenovo\devicecenter\ContextMenu
+C:\ProgramData\Lenovo\devicecenter\DisplayIcons
+C:\ProgramData\Lenovo\devicecenter\driver
+C:\ProgramData\Lenovo\devicecenter\ExceptReport
+C:\ProgramData\Lenovo\devicecenter\extends
+C:\ProgramData\Lenovo\devicecenter\icons
+C:\ProgramData\Lenovo\devicecenter\LeCloudSDK
+C:\ProgramData\Lenovo\devicecenter\logs
+C:\ProgramData\Lenovo\devicecenter\LStoreSoftsCache
+C:\ProgramData\Lenovo\devicecenter\ludp
+C:\ProgramData\Lenovo\devicecenter\modules
+C:\ProgramData\Lenovo\devicecenter\profiles
+C:\ProgramData\Lenovo\devicecenter\SoftConfig
+C:\ProgramData\Lenovo\devicecenter\storagedb
+C:\ProgramData\Lenovo\devicecenter\Update_Tmp
+C:\ProgramData\Lenovo\devicecenter\XYVod
+C:\ProgramData\Lenovo\devicecenter\联想电脑管家.lnk
+C:\ProgramData\Lenovo\devicecenter\AppConfig.ini
+C:\ProgramData\Lenovo\devicecenter\cfg.data
+C:\ProgramData\Lenovo\EULA\EULACheck
+C:\ProgramData\Lenovo\FnHotkeyUtility\6E7CPP4MI491_1CFBC6B8169DF98234EFDD7F04EF14A1.db
+C:\ProgramData\Lenovo\FnHotkeyUtility\6E7CPP4MI491_1CFBC6B8169DF98234EFDD7F04EF14A1.db-shm
+C:\ProgramData\Lenovo\FnHotkeyUtility\6E7CPP4MI491_1CFBC6B8169DF98234EFDD7F04EF14A1.db-wal
+C:\ProgramData\Lenovo\FnHotkeyUtility\6E7CPP4MI491_3F611110D80591842C042B1AC912CE60.db
+C:\ProgramData\Lenovo\FnHotkeyUtility\6E7CPP4MI491_3F611110D80591842C042B1AC912CE60.db-shm
+C:\ProgramData\Lenovo\FnHotkeyUtility\6E7CPP4MI491_3F611110D80591842C042B1AC912CE60.db-wal
+C:\ProgramData\Lenovo\FnHotkeyUtility\6E7CPP4MI491_870D64938BEA885946991D88ACC57D4D.db
+C:\ProgramData\Lenovo\FnHotkeyUtility\6E7CPP4MI491_870D64938BEA885946991D88ACC57D4D.db-shm
+C:\ProgramData\Lenovo\FnHotkeyUtility\6E7CPP4MI491_870D64938BEA885946991D88ACC57D4D.db-wal
+C:\ProgramData\Lenovo\ImController\Plugins
+C:\ProgramData\Lenovo\ImController\shared
+C:\ProgramData\Lenovo\ImController\SystemPluginData
+C:\ProgramData\Lenovo\ImController\Temp
+C:\ProgramData\Lenovo\ImController\ImControllerEventManifest.man
+C:\ProgramData\Lenovo\ImController\ImControllerMaintenanceTask.xml
+C:\ProgramData\Lenovo\ImController\ImControllerMonitorTask.xml
+C:\ProgramData\Lenovo\ImController\ImControllerSubscription.xml
+C:\ProgramData\Lenovo\ImController\NOTICE_IMCService.txt
+C:\ProgramData\Lenovo\LDF\Symbols
+C:\ProgramData\Lenovo\LeAppStore\LStoreSoftsCache
+C:\ProgramData\Lenovo\LegionZone\LeStoreData
+C:\ProgramData\Lenovo\LegionZone\Logs
+C:\ProgramData\Lenovo\LegionZone_PcmPlgin\logs
+C:\ProgramData\Lenovo\LenovoSafe\BwData
+C:\ProgramData\Lenovo\LenovoSafe\Data
+C:\ProgramData\Lenovo\LenovoSafe\QuarantineDB
+C:\ProgramData\Lenovo\LenovoSafe\temp
+C:\ProgramData\Lenovo\LENOVO_ZONE\Data
+C:\ProgramData\Lenovo\LENOVO_ZONE\logs
+C:\ProgramData\Lenovo\SGUID\SGUID.dat
+C:\ProgramData\Lenovo\SGUID\SGUID.ini
+C:\ProgramData\Lenovo\SmartEngine\GameHL
+C:\ProgramData\Lenovo\SmartEngine\LenovoGamingSystemAddin
+C:\ProgramData\Lenovo\SmartEngine\logs
+C:\ProgramData\Lenovo\SmartEngine\ludp
+C:\ProgramData\Lenovo\SmartEngine\profile
+C:\ProgramData\Lenovo\SmartEngine\Update_Tmp
+C:\ProgramData\Lenovo\Udc\Broker
+C:\ProgramData\Lenovo\Udc\cert
+C:\ProgramData\Lenovo\Udc\DB
+C:\ProgramData\Lenovo\Udc\diagnostics
+C:\ProgramData\Lenovo\Udc\Download
+C:\ProgramData\Lenovo\Udc\Hosts
+C:\ProgramData\Lenovo\Udc\Log
+C:\ProgramData\Lenovo\Udc\operational-events
+C:\ProgramData\Lenovo\Udc\plugin-data
+C:\ProgramData\Lenovo\Udc\Shared
+C:\ProgramData\Lenovo\Udc\SharedDB
+C:\ProgramData\Lenovo\Udc\mqtt-ca.pem
+
+DONE_HR

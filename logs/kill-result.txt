@@ -1,0 +1,36 @@
+===== WorkBuddy 强制关闭脚本 =====
+时间: 2026-09-06 20:46:38
+
+[0] 安装器进程: 无
+[0] WorkBuddy 进程数(前): 0
+
+[1] 强制终止所有 WorkBuddy.exe (跳过 QmProtector 退出流程)...
+
+[2] 结果: 剩余 WorkBuddy 进程数 = 0
+    OK 已全部清除
+
+[3] 清理所有残留/卡死的安装器进程...
+    无残留安装器
+
+[4] 安装目标: D:\WorkBuddy\WorkBuddy.exe
+[4] 安装前时间戳: 2026-08-30 20:51:48
+[4] 以管理员权限启动全新安装器: C:\Users\Lenovo\AppData\Local\Temp\workbuddy-update-x64\WorkBuddy-Setup-5.5.3.37748631.exe
+    已启动 -> 请在 UAC 弹窗点『是』
+    新安装器 PID=28468, 窗口置顶=False
+[5] 监控 90 秒, 判断安装是否真的开始写入...
+     15s 未写入 (安装器=存活)
+     30s 未写入 (安装器=存活)
+     45s 未写入 (安装器=存活)
+     60s 未写入 (安装器=存活)
+     75s 未写入 (安装器=存活)
+     90s 未写入 (安装器=存活)
+
+    90 秒仍无写入 -> 安装器很可能又卡在 QmProtector
+    请查看屏幕上的安装窗口; 若它提示『请关闭 WorkBuddy』
+    而 WorkBuddy 实际已全部关闭, 则属应用侧缺陷,
+    本地无法再修, 请用桌面 WorkBuddy-update-bug-report.md 联系官方
+
+===== 完成 =====
+接下来: 安装窗口出现后一路点『下一步/安装』直到完成
+        装完打开 WorkBuddy, 在『设置 - 关于』确认版本为 5.5.3
+        若本脚本未能解决, 见桌面 WorkBuddy-update-bug-report.md 联系官方

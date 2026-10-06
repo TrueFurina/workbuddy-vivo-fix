@@ -1,0 +1,27 @@
+=== 驱动文件厂商身份 ===
+C:\Windows\System32\drivers\fse.sys | Size=230888 | Company=Microsoft Corporation | Desc=Flow Steering Engine Driver | Product=Microsoft® Windows® Operating System
+C:\Windows\System32\drivers\npcap.sys | Size=82584 | Company=Nmap Software LLC | Desc=npcap.sys (NT6 AMD64) Kernel Filter Driver | Product=Npcap
+C:\Windows\System32\drivers\VBoxNetLwf.sys | Size=259208 | Company=Oracle and/or its affiliates | Desc=VirtualBox NDIS 6.0 Lightweight Filter Driver | Product=Oracle VirtualBox
+C:\Windows\System32\drivers\OrayVGC.sys | Size=253712 | Company=Oray Technologies, Inc. | Desc=Oray Virtual Game Controller | Product=Oray Virtual Game Controller
+C:\Windows\System32\drivers\lnvscenter.sys | Size=146656 | Company=Beijing Huorong Network Technology Co., Ltd. | Desc=LnvScenter | Product=Huorong Internet Security
+C:\Windows\System32\drivers\uunetfilter.sys | Size=107784 | Company=Windows (R) Win 7 DDK provider | Desc=NetFilter SDK WFP Driver | Product=Windows (R) Win 7 DDK driver
+C:\Windows\System32\drivers\hnswfpdriver.sys | Size=58824 | Company=Microsoft Corporation | Desc=Network driver for proxying traffic | Product=Microsoft® Windows® Operating System
+
+=== 关键服务状态 ===
+
+Name       Status StartType
+----       ------ ---------
+bfe       Running Automatic
+mpsdrv    Running    Manual
+mpssvc    Running Automatic
+WdNisSvc  Stopped    Manual
+WinDefend Running Automatic
+
+
+=== 安全中心登记的杀软/防火墙 ===
+
+DISPLAYNAME : Microsoft Defender 防病毒
+
+DISPLAYNAME : Lenovo Anti-Virus powered by Huorong Security
+
+DONE_DRV

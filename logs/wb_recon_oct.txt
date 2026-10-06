@@ -1,0 +1,87 @@
+VERFILE D:\WorkBuddy\version: 37.10.3-24
+VERFILE D:\WorkBuddy\resources\app.asar.unpacked\package.json: missing
+PKGDIR: C:\Users\Lenovo\AppData\Local\Temp\workbuddy-update-x64 exists=True
+  PKG WorkBuddy-Setup-5.6.2.39298511.exe size=530927840 mtime=10-02 01:08
+LOGDIR: C:\Users\Lenovo\.workbuddy\logs\update exists=True
+  LOG update-20261005.log mtime=10-05 00:31 size=10592
+  LOG qm-uninstall.log mtime=10-05 00:22 size=124153
+  LOG update-20261004.log mtime=10-04 23:50 size=4416
+  LOG update-20261003.log mtime=10-04 06:54 size=3276
+  LOG update-20261002.log mtime=10-03 23:15 size=9888
+=== TAIL of update-20261005.log (last 70 lines) ===
+[2026-10-04T16:02:03.438Z] [WARN ] [win32] QmProtector suspend failed: Command failed: D:\WorkBuddy\resources\qm\qm-helper.exe suspend D:\WorkBuddy\resources\app.asar.unpacked\resources\plugins\workbuddy-builtin\builtin-plugins\weixinpay\prebuilds\win32-x64 C:\Users\Lenovo\.workbuddy\logs\update\qm-uninstall.log
+[2026-10-04T16:02:03.438Z] [INFO ] [win32] Launching installer: C:\Users\Lenovo\AppData\Local\Temp\workbuddy-update-x64\WorkBuddy-Setup-5.6.2.39298511.exe
+[2026-10-04T16:02:03.439Z] [INFO ] [win32] About to call spawnUpdateProgressWindow()
+[2026-10-04T16:02:03.440Z] [INFO ] [win32][spawn] enter spawnUpdateProgressWindow
+[2026-10-04T16:02:03.440Z] [INFO ] [win32][resolve] process.resourcesPath=D:\WorkBuddy\resources
+[2026-10-04T16:02:03.440Z] [INFO ] [win32][resolve] __dirname=D:\WorkBuddy\resources\app.asar\main fileName=update-progress.ps1
+[2026-10-04T16:02:03.441Z] [INFO ] [win32][resolve] candidate=D:\WorkBuddy\resources\scripts\update-progress.ps1 exists=true
+[2026-10-04T16:02:03.441Z] [INFO ] [win32][spawn] resolved scriptPath=D:\WorkBuddy\resources\scripts\update-progress.ps1
+[2026-10-04T16:02:03.441Z] [INFO ] [win32][resolve] process.resourcesPath=D:\WorkBuddy\resources
+[2026-10-04T16:02:03.441Z] [INFO ] [win32][resolve] __dirname=D:\WorkBuddy\resources\app.asar\main fileName=launch-update-progress.vbs
+[2026-10-04T16:02:03.441Z] [INFO ] [win32][resolve] candidate=D:\WorkBuddy\resources\scripts\launch-update-progress.vbs exists=true
+[2026-10-04T16:02:03.442Z] [INFO ] [win32][spawn] resolved launcherPath=D:\WorkBuddy\resources\scripts\launch-update-progress.vbs
+[2026-10-04T16:02:03.442Z] [INFO ] [win32][spawn] installerPath=C:\Users\Lenovo\AppData\Local\Temp\workbuddy-update-x64\WorkBuddy-Setup-5.6.2.39298511.exe title="正在安装更新" caption="正在安装..."
+[2026-10-04T16:02:03.442Z] [INFO ] [win32][spawn] about to spawn wscript.exe (VBS relay)
+[2026-10-04T16:02:03.446Z] [INFO ] [win32][spawn] wscript spawned pid=38312
+[2026-10-04T16:02:03.447Z] [INFO ] [win32] Returned from spawnUpdateProgressWindow()
+[2026-10-04T16:02:03.447Z] [INFO ] [win32] Using NSIS silent mode (/S --updated /UPDATE=1 /D=D:\WorkBuddy)
+[2026-10-04T16:02:03.466Z] [INFO ] [win32] Calling app.quit() now
+
+================================================================================
+  Session started at 2026-10-04T16:21:47.573Z
+================================================================================
+[2026-10-04T16:21:47.573Z] [INFO ] Logger initialized at C:\Users\Lenovo\.workbuddy\logs\update\update-20261005.log
+[2026-10-04T16:21:47.574Z] [INFO ] Update service started, app.isPackaged=true, isProductionBuild=true
+[2026-10-04T16:22:17.582Z] [INFO ] State changed: checking
+[2026-10-04T16:22:17.583Z] [INFO ] [win32] Checking for updates: https://copilot.tencent.com/v2/update?platform=workbuddy-win32-x64-user&version=5.5.6&x-user-id=31e4b703-9a74-44a8-bad3-d657e2a829d6
+[2026-10-04T16:22:17.652Z] [INFO ] [win32] Update response: {"version":"5.6.2.39298511","url":"https://download.codebuddy.cn/workbuddy/saas/win32-x64-user/WorkBuddy-win32-x64-user-5.6.2.39298511-37a65c0b.exe","productVersion":"5.6.2.39298511","sha256hash":"","timestamp":1790021711,"hash":"","name":"","supportsFastUpdate":false}
+[2026-10-04T16:22:17.653Z] [INFO ] [win32] New version available: 5.6.2.39298511 (current: 5.5.6)
+[2026-10-04T16:22:17.653Z] [INFO ] State changed: available | version=5.6.2.39298511
+[2026-10-04T16:22:17.653Z] [INFO ] [win32] Valid cached package found: C:\Users\Lenovo\AppData\Local\Temp\workbuddy-update-x64\WorkBuddy-Setup-5.6.2.39298511.exe
+[2026-10-04T16:22:17.654Z] [INFO ] [win32] Update downloaded: C:\Users\Lenovo\AppData\Local\Temp\workbuddy-update-x64\WorkBuddy-Setup-5.6.2.39298511.exe
+[2026-10-04T16:22:17.654Z] [INFO ] State changed: downloaded | version=5.6.2.39298511
+[2026-10-04T16:22:17.654Z] [INFO ] State changed: ready | version=5.6.2.39298511
+[2026-10-04T16:22:36.026Z] [INFO ] [win32] quitAndInstall ENTRY
+[2026-10-04T16:22:36.030Z] [INFO ] [win32] Disk space check: installDir(D:\WorkBuddy)=22693MB tmpdir(C:\Users\Lenovo\AppData\Local\Temp)=35398MB required=2048MB
+[2026-10-04T16:22:36.030Z] [INFO ] [win32] QmProtector: helperExe=D:\WorkBuddy\resources\qm\qm-helper.exe exists=true
+[2026-10-04T16:22:36.030Z] [INFO ] [win32] QmProtector: dllDir=D:\WorkBuddy\resources\app.asar.unpacked\resources\plugins\workbuddy-builtin\builtin-plugins\weixinpay\prebuilds\win32-x64 dllExists=true
+[2026-10-04T16:22:36.771Z] [WARN ] [win32] QmProtector suspend failed: Command failed: D:\WorkBuddy\resources\qm\qm-helper.exe suspend D:\WorkBuddy\resources\app.asar.unpacked\resources\plugins\workbuddy-builtin\builtin-plugins\weixinpay\prebuilds\win32-x64 C:\Users\Lenovo\.workbuddy\logs\update\qm-uninstall.log
+[2026-10-04T16:22:36.771Z] [INFO ] [win32] Launching installer: C:\Users\Lenovo\AppData\Local\Temp\workbuddy-update-x64\WorkBuddy-Setup-5.6.2.39298511.exe
+[2026-10-04T16:22:36.771Z] [INFO ] [win32] About to call spawnUpdateProgressWindow()
+[2026-10-04T16:22:36.772Z] [INFO ] [win32][spawn] enter spawnUpdateProgressWindow
+[2026-10-04T16:22:36.772Z] [INFO ] [win32][resolve] process.resourcesPath=D:\WorkBuddy\resources
+[2026-10-04T16:22:36.772Z] [INFO ] [win32][resolve] __dirname=D:\WorkBuddy\resources\app.asar\main fileName=update-progress.ps1
+[2026-10-04T16:22:36.772Z] [INFO ] [win32][resolve] candidate=D:\WorkBuddy\resources\scripts\update-progress.ps1 exists=true
+[2026-10-04T16:22:36.774Z] [INFO ] [win32][spawn] resolved scriptPath=D:\WorkBuddy\resources\scripts\update-progress.ps1
+[2026-10-04T16:22:36.775Z] [INFO ] [win32][resolve] process.resourcesPath=D:\WorkBuddy\resources
+[2026-10-04T16:22:36.775Z] [INFO ] [win32][resolve] __dirname=D:\WorkBuddy\resources\app.asar\main fileName=launch-update-progress.vbs
+[2026-10-04T16:22:36.775Z] [INFO ] [win32][resolve] candidate=D:\WorkBuddy\resources\scripts\launch-update-progress.vbs exists=true
+[2026-10-04T16:22:36.775Z] [INFO ] [win32][spawn] resolved launcherPath=D:\WorkBuddy\resources\scripts\launch-update-progress.vbs
+[2026-10-04T16:22:36.775Z] [INFO ] [win32][spawn] installerPath=C:\Users\Lenovo\AppData\Local\Temp\workbuddy-update-x64\WorkBuddy-Setup-5.6.2.39298511.exe title="正在安装更新" caption="正在安装..."
+[2026-10-04T16:22:36.776Z] [INFO ] [win32][spawn] about to spawn wscript.exe (VBS relay)
+[2026-10-04T16:22:36.779Z] [INFO ] [win32][spawn] wscript spawned pid=18420
+[2026-10-04T16:22:36.780Z] [INFO ] [win32] Returned from spawnUpdateProgressWindow()
+[2026-10-04T16:22:36.780Z] [INFO ] [win32] Using NSIS silent mode (/S --updated /UPDATE=1 /D=D:\WorkBuddy)
+[2026-10-04T16:22:36.788Z] [INFO ] [win32] Calling app.quit() now
+
+================================================================================
+  Session started at 2026-10-04T16:30:46.437Z
+================================================================================
+[2026-10-04T16:30:46.437Z] [INFO ] Logger initialized at C:\Users\Lenovo\.workbuddy\logs\update\update-20261005.log
+[2026-10-04T16:30:46.437Z] [INFO ] Update service started, app.isPackaged=true, isProductionBuild=true
+[2026-10-04T16:31:16.448Z] [INFO ] State changed: checking
+[2026-10-04T16:31:16.449Z] [INFO ] [win32] Checking for updates: https://copilot.tencent.com/v2/update?platform=workbuddy-win32-x64-user&version=5.5.6&x-user-id=31e4b703-9a74-44a8-bad3-d657e2a829d6
+[2026-10-04T16:31:16.522Z] [INFO ] [win32] Update response: {"version":"5.6.2.39298511","url":"https://download.codebuddy.cn/workbuddy/saas/win32-x64-user/WorkBuddy-win32-x64-user-5.6.2.39298511-37a65c0b.exe","productVersion":"5.6.2.39298511","sha256hash":"","timestamp":1790021711,"hash":"","name":"","supportsFastUpdate":false}
+[2026-10-04T16:31:16.522Z] [INFO ] [win32] New version available: 5.6.2.39298511 (current: 5.5.6)
+[2026-10-04T16:31:16.522Z] [INFO ] State changed: available | version=5.6.2.39298511
+[2026-10-04T16:31:16.523Z] [INFO ] [win32] Valid cached package found: C:\Users\Lenovo\AppData\Local\Temp\workbuddy-update-x64\WorkBuddy-Setup-5.6.2.39298511.exe
+[2026-10-04T16:31:16.523Z] [INFO ] [win32] Update downloaded: C:\Users\Lenovo\AppData\Local\Temp\workbuddy-update-x64\WorkBuddy-Setup-5.6.2.39298511.exe
+[2026-10-04T16:31:16.523Z] [INFO ] State changed: downloaded | version=5.6.2.39298511
+[2026-10-04T16:31:16.523Z] [INFO ] State changed: ready | version=5.6.2.39298511
+--- FW TEST (netsh advfirewall, 10s timeout) ---
+FW HANG (>10.2s) -> MpsSvc/BFE 仍死锁(9月根因未除)
+INSTALLER PROCS: ['"WorkBuddy-Setup-5.6.2.39298511.exe","28416","Console","1","23,952 K"']
+WB PROC COUNT: 12
+DISK C:\ free=37.0GB used=88%
+DISK D:\ free=23.8GB used=94%

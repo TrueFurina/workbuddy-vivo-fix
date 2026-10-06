@@ -1,0 +1,55 @@
+WorkBuddy 更新卡死 / Windows 防火墙死锁 —— 永久修复记录
+生成于 2026-10-05，已实测生效。
+
+==================================================
+两个相互独立的问题（之前被混为一谈，现已拆开）
+==================================================
+
+【问题1】WorkBuddy 装不上 / 更新死循环
+根因：QmProtector（微信支付保护组件）的内核驱动在「普通用户权限」下
+      加载失败（日志报 Initialize=0x80000002），安装器卡在“挂起旧版以便替换文件”这一步。
+      —— 与 9 月那次 5.4.5→5.5.3 死循环是同一根因，之前只被“改名藏包/杀进程”掩盖，没真修。
+修复：
+  ① 先彻底关掉 WB（否则文件被占会自锁）：
+     Get-Process -Name WorkBuddy | Stop-Process -Force
+  ② 再启动安装器（普通启动即可；若还卡 QmProtector，用管理员身份跑，或临时把
+     D:\WorkBuddy\...\weixinpay\prebuilds\win32-x64 改名 _disabled 再装）。
+
+【问题2】Windows 防火墙（MpsSvc）死锁，netsh advfirewall 卡 12 秒
+根因：第三方 WFP/NDIS 过滤驱动「uunetfilter.sys」（NetFilter SDK WFP Driver）
+      开机即加载，把底层 BFE（基础过滤引擎）楔死 → 防火墙服务虽显示 Running 却不响应。
+      （同批嫌疑：npcap / VBoxNetLwf / 火绒 lnvscenter，但本次实测首凶是 uunetfilter）
+修复（重启后生效）：
+  sc config uunetfilter start= demand
+
+==================================================
+已验证结果（2026-10-05）
+==================================================
+- WB 5.6.2 安装成功，更新死循环解除。
+- sc query mpssvc => STATE : 4 RUNNING（不再卡死）
+- netsh advfirewall show allprofiles state => 秒回（此前卡 12 秒）
+- 当前防火墙三套配置 = OFF（服务运行着但没在过滤，等于裸奔，见下收尾）
+
+==================================================
+收尾：重新开启防火墙防护（推荐，根因已除）
+==================================================
+netsh advfirewall set allprofiles state on
+验证： netsh advfirewall show allprofiles state
+      应显示 ON 且“秒回”——证明死锁真好了，不只是被关掉。
+
+==================================================
+若开启防火墙后仍卡（说明不止 uunetfilter 一个凶手）
+==================================================
+把其余开机过滤驱动逐个改“按需启动”并重启验证：
+  sc config npcap start= demand
+  sc config VBoxNetLwf start= demand
+  sc config lnvscenter start= demand     （火绒驱动，最后动，它是现役杀软）
+
+==================================================
+给未来自己的提醒
+==================================================
+1. 装 WB 前永远先全杀 WB 进程，否则自锁。
+2. 别禁用 mpssvc / bfe 服务本身；禁「uunetfilter 这类第三方驱动」才是正解。
+3. 防火墙死锁 = 第三方 WFP/NDIS 驱动（uunetfilter/npcap/VBoxNetLwf/火绒 lnvscenter）
+   开机钩死底层，绝不是微软自带防火墙的锅。
+4. PowerShell 里启动程序用 Start-Process "路径"，别用 CMD 的 start "" "路径"（路径会被空串吃掉）。

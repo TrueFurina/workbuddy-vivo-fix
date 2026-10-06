@@ -1,0 +1,16 @@
+=== QmProtector 插件目录 ===
+  path: D:\WorkBuddy\resources\app.asar.unpacked\resources\plugins\workbuddy-builtin\builtin-plugins\weixinpay\prebuilds\win32-x64
+  exists=True
+    libTencentSM.dll                1507368  09-18 09:15
+    QmProtectorDriver.sys            126288  09-18 09:15
+    QmProtectorLib.dll               783920  09-18 09:15
+    wechatpay-cli.exe               5940776  09-18 09:15
+  是否已有禁用副本: False
+=== qm-helper.exe ===
+  exists=True
+  size=241712 mtime=09-18 09:15
+=== 注册表: 名字含 qm 的服务 ===
+  [('MSPQM', 3, '\\SystemRoot\\System32\\drivers\\MSPQM.sys')]
+=== D:\WorkBuddy 可写性测试 ===
+  写入测试: OK (目录未被独占锁定)
+  清理测试文件: OK

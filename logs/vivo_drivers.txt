@@ -1,0 +1,236 @@
+=== 第三方(非Microsoft) 网络/安全/防火墙相关内核驱动 ===
+
+Name                               DisplayName                                           Manufacturer PathName
+----                               -----------                                           ------------ --------
+KSecDD                             KSecDD                                                             C:\windows\system32\Drivers\ksecdd.sys
+KSecPkg                            KSecPkg                                                            C:\windows\system32\Drivers\ksecpkg.sys
+Microsoft_Bluetooth_AvrcpTransport Microsoft 蓝牙 AVRCP 传输驱动程序                                  C:\windows\system32\drivers\Microsoft.Bluetooth.AvrcpTransport.sys
+NetAdapterCx                       Network Adapter WDF Class Extension Library                        C:\windows\system32\drivers\netadaptercx.sys
+NetBIOS                            NetBIOS Interface                                                  C:\windows\system32\drivers\netbios.sys
+NetBT                              NetBT                                                              C:\windows\system32\DRIVERS\netbt.sys
+nvvad_WaveExtensible               NVIDIA Virtual Audio Device (Wave Extensible) (WDM)                C:\windows\system32\drivers\nvvad64v.sys
+QWAVEdrv                           QWAVE driver                                                       C:\windows\system32\drivers\qwavedrv.sys
+RtkBtFilter                        Realtek Bluetooth Filter Driver                                    C:\windows\system32\drivers\RtkBtfilter.sys
+srvnet                             srvnet                                                             C:\windows\system32\DRIVERS\srvnet.sys
+VBoxNetLwf                         VirtualBox NDIS6 Bridged Networking Service                        C:\windows\system32\DRIVERS\VBoxNetLwf.sys
+WFPLWFS                            Microsoft Windows 筛选平台                                         C:\windows\system32\drivers\wfplwfs.sys
+WindowsTrustedRT                   Windows Trusted Execution Environment Class Extension              C:\windows\system32\drivers\WindowsTrustedRT.sys
+WindowsTrustedRTProxy              Microsoft Windows 可信运行时安全服务                               C:\windows\system32\drivers\WindowsTrustedRTProxy.sys
+
+
+=== 全部 Running 驱动中 Manufacturer 非 Microsoft 的(前40) ===
+
+Name                               DisplayName                                                      Manufacturer
+----                               -----------                                                      ------------
+ACPI                               Microsoft ACPI Driver                                            
+acpiex                             Microsoft ACPIEx Driver                                          
+acpipagr                           ACPI 处理器聚合器驱动程序                                        
+ACPIVPC                            Lenovo Virtual Power Controller Driver                           
+AFD                                Ancillary Function Driver for Winsock                            
+afunix                             afunix                                                           
+ahcache                            Application Compatibility Cache                                  
+amdwps                             AMD 工作负荷分析计划驱动程序                                     
+bam                                Background Activity Moderator Driver                             
+BasicDisplay                       BasicDisplay                                                     
+BasicRender                        BasicRender                                                      
+Beep                               Beep                                                             
+bfs                                中转文件系统                                                     
+bindflt                            Windows Bind Filter Driver                                       
+bowser                             浏览器                                                           
+BthA2dp                            Microsoft Bluetooth A2dp driver                                  
+BthEnum                            蓝牙枚举器服务                                                   
+BthHFAud                           Microsoft Bluetooth 免提音频驱动程序                             
+BthHFEnum                          Microsoft Bluetooth 免提配置文件驱动程序                         
+BthLEEnum                          蓝牙低能耗驱动程序                                               
+BTHMODEM                           蓝牙调制解调器通信驱动程序                                       
+BthPan                             蓝牙设备(个人区域网)                                             
+BTHPORT                            蓝牙端口驱动程序                                                 
+BTHUSB                             蓝牙无线电收发器 USB 驱动程序                                    
+CAD                                充电均衡驱动程序                                                 
+CDD                                Canonical 显示驱动程序                                           
+cdrom                              CD-ROM Driver                                                    
+CimFS                              CimFS                                                            
+CldFlt                             Windows Cloud Files Filter Driver                                
+CLFS                               Common Log (CLFS)                                                
+CmBatt                             Microsoft ACPI 控制方法电池驱动程序                              
+CNG                                CNG                                                              
+CompositeBus                       复合总线枚举器驱动程序                                           
+condrv                             Console Driver                                                   
+Dfsc                               DFS Namespace Client Driver                                      
+disk                               磁盘驱动程序                                                     
+Dokan2                             Dokan2                                                           
+DXGKrnl                            LDDM Graphics Subsystem                                          
+EhStorClass                        Enhanced Storage Filter Driver                                   
+ExecutionContext                   CPU Scheduler for High Performance I/O                           
+fastfat                            FAT12/16/32 File System Driver                                   
+FileCrypt                          FileCrypt                                                        
+FileInfo                           File Information FS MiniFilter                                   
+FltMgr                             FltMgr                                                           
+fse                                Flow steering engine                                             
+fvevol                             BitLocker Drive Encryption Filter Driver                         
+GPIOClx0101                        Microsoft GPIO Class Extension Driver                            
+HDAudBus                           用于 High Definition Audio 的 Microsoft UAA 总线驱动程序         
+hidi2c                             Microsoft I2C HID 微型端口驱动程序                               
+HidUsb                             Microsoft HID Class Driver                                       
+HTTP                               HTTP Service                                                     
+hvservice                          Microsoft 虚拟机监控程序服务驱动程序                             
+hvsocketcontrol                    hvsocketcontrol                                                  
+i8042prt                           i8042 键盘和 PS/2 鼠标端口驱动程序                               
+iaLPSS2_GPIO2_ADL                  Intel(R) Serial IO GPIO Driver v2                                
+iaLPSS2_I2C_ADL                    Intel(R) Serial IO I2C Driver v2                                 
+ICCWDT                             Intel(R) Watchdog Timer Driver (Intel(R) WDT)                    
+IntcAudioBus                       英特尔® 智音技术总线                                             
+IntcAzAudAddService                Service for Realtek HD Audio (WDM)                               
+IntcOED                            英特尔® 智音技术 OED                                             
+intelpep                           Intel(R) Power Engine Plug-in Driver                             
+IntelPMT                           Intel (R) 平台监控技术服务                                       
+intelppm                           Intel Processor Driver                                           
+iorate                             磁盘 I/O 速率筛选器驱动程序                                      
+ipf_acpi                           ipf_acpi                                                         
+ipf_cpu                            ipf_cpu                                                          
+ipf_lf                             ipf_lf                                                           
+kbdclass                           Keyboard Class Driver                                            
+kbdhid                             Keyboard HID Driver                                              
+kdnic                              Microsoft 内核调试网络微型端口                                   
+KSecDD                             KSecDD                                                           
+KSecPkg                            KSecPkg                                                          
+ksthunk                            Kernel Streaming Thunks                                          
+lltdio                             链路层拓扑发现映射器 I/O 驱动程序                                
+LnCoolit                           LnCoolit                                                         
+LnvDrvFdn                          LnvDrvFdn                                                        
+lnvscenter                         lnvscenter                                                       
+luafv                              UAC File Virtualization                                          
+lxss                               lxss                                                             
+MEIx64                             Intel(R) Management Engine Interface                             
+Microsoft_Bluetooth_AvrcpTransport Microsoft 蓝牙 AVRCP 传输驱动程序                                
+MMCSS                              Multimedia Class Scheduler                                       
+monitor                            Microsoft Monitor Class Function Driver Service                  
+mouclass                           Mouse Class Driver                                               
+mouhid                             Mouse HID Driver                                                 
+mountmgr                           Mount Point Manager                                              
+mpsdrv                             Windows Defender Firewall Authorization Driver                   
+mrxsmb                             SMB MiniRedirector Wrapper and Engine                            
+mrxsmb20                           SMB 2.0 MiniRedirector                                           
+Msfs                               Msfs                                                             
+mshidkmdf                          Pass-through HID to KMDF Filter Driver                           
+mshidumdf                          Pass-through HID to UMDF Driver                                  
+msisadrv                           msisadrv                                                         
+MSKSSRV                            Microsoft 流服务代理                                             
+MsLldp                             Microsoft 链路层发现协议                                         
+msrep                              msrep                                                            
+mssmbios                           Microsoft System Management BIOS Driver                          
+MTConfig                           Microsoft Input Configuration Driver                             
+Mup                                Mup                                                              
+NahimicBTLink                      Nahimic Easy Surround device - Driver                            
+NahimicXVAD                        Nahimic VAD - Driver                                             
+Nahimic_Mirroring                  Nahimic mirroring device - Driver                                
+NativeWifiP                        NativeWiFi 筛选器                                                
+NDIS                               NDIS System Driver                                               
+NdisCap                            Microsoft NDIS 捕获                                              
+NdisTapi                           远程访问 NDIS TAPI 驱动程序                                      
+Ndisuio                            NDIS Usermode I/O Protocol                                       
+NdisVirtualBus                     Microsoft 虚拟网络适配器枚举器                                   
+NdisWan                            远程访问 NDIS WAN 驱动程序                                       
+ndproxy                            NDIS Proxy Driver                                                
+Ndu                                Windows Network Data Usage Monitoring Driver                     
+NetAdapterCx                       Network Adapter WDF Class Extension Library                      
+NetBIOS                            NetBIOS Interface                                                
+NetBT                              NetBT                                                            
+npcap                              Npcap Packet Driver (NPCAP)                                      
+Npfs                               Npfs                                                             
+npsvctrig                          Named pipe service trigger provider                              
+nsiproxy                           NSI Proxy Service Driver                                         
+Ntfs                               Ntfs                                                             
+Null                               Null                                                             
+NVHDA                              Service for NVIDIA High Definition Audio Driver                  
+nvlddmkm                           nvlddmkm                                                         
+nvmedisk                           Microsoft NVMe 磁盘驱动程序                                      
+nvpcf                              NVPCF Service                                                    
+nvvad_WaveExtensible               NVIDIA Virtual Audio Device (Wave Extensible) (WDM)              
+OrayUSBVHCI                        OrayUSBVHCI Service                                              
+OrayVGC                            Oray Virtual Game Controller Service                             
+P9Rdr                              Plan 9 Redirector Driver                                         
+partmgr                            Partition driver                                                 
+pci                                PCI 总线驱动程序                                                 
+pcw                                Performance Counters for Windows Driver                          
+pdc                                pdc                                                              
+PEAUTH                             PEAUTH                                                           
+PptpMiniport                       WAN 微型端口(PPTP)                                               
+PRM                                Microsoft PRM 驱动程序                                           
+Psched                             QoS 数据包计划程序                                               
+QWAVEdrv                           QWAVE driver                                                     
+RasAgileVpn                        WAN 微型端口(IKEv2)                                              
+Rasl2tp                            WAN 微型端口(L2TP)                                               
+RasPppoe                           远程访问 PPPOE 驱动程序                                          
+RasSstp                            WAN 微型端口(SSTP)                                               
+rdbss                              Redirected Buffering Sub System                                  
+rdpbus                             远程桌面设备重定向程序总线驱动程序                               
+rdyboost                           ReadyBoost                                                       
+RFCOMM                             Bluetooth Device (RFCOMM Protocol TDI)                           
+rspndr                             链路层拓扑发现响应程序                                           
+rt68cx21                           Realtek NetAdapter Driver                                        
+RtkBtFilter                        Realtek Bluetooth Filter Driver                                  
+rtwlane602                         Realtek Wireless LAN 802.11ax PCI-E Network Adapter              
+spaceport                          存储空间驱动程序                                                 
+SpbCx                              Simple Peripheral Bus Support Library                            
+srv2                               Server SMB 2.xxx Driver                                          
+srvnet                             srvnet                                                           
+storahci                           Microsoft 标准 SATA AHCI 驱动程序                                
+stornvme                           Microsoft Standard NVM Express Driver                            
+storqosflt                         Storage QoS Filter Driver                                        
+storvsp                            storvsp                                                          
+swenum                             软件总线驱动程序                                                 
+Tcpip                              TCP/IP Protocol Driver                                           
+tcpipreg                           @%SystemRoot%\System32\drivers\tcpipreg.sys,-10110,              
+tdx                                NetIO 旧 TDI 支持驱动程序                                        
+ToDeskAudio                        ToDeskAudio Service                                              
+TPM                                TPM                                                              
+UcmCx0101                          USB Connector Manager KMDF Class Extension                       
+UcmUcsiAcpiClient                  UCM-UCSI ACPI 客户端                                             
+UcmUcsiCx0101                      UCM-UCSI KMDF Class Extension                                    
+UCPD                               UCPD                                                             
+Ucx01000                           USB Host Support Library                                         
+UEFI                               Microsoft UEFI 驱动程序                                          
+uiomap                             Microsoft UIO 映射器驱动程序服务                                 
+umbus                              UMBus Enumerator Driver                                          
+UnionFS                            UnionFS                                                          
+usbccgp                            Microsoft USB 通用父驱动程序                                     
+USBHUB3                            SuperSpeed 集线器                                                
+usbvideo                           USB 视频设备(WDM)                                                
+USBXHCI                            符合 USB xHCI 的主机控制器                                       
+VBoxNetLwf                         VirtualBox NDIS6 Bridged Networking Service                      
+VBoxSup                            VirtualBox Service                                               
+VBoxUSBMon                         VirtualBox USB Monitor Service                                   
+vdrvroot                           Microsoft 虚拟驱动器枚举器                                       
+VfpExt                             Microsoft Azure VFP Switch Filter Extension                      
+Vid                                Vid                                                              
+vmbusr                             虚拟机总线提供程序                                               
+VMSNPXY                            VmSwitch NIC Proxy Driver                                        
+VMSP                               VmSwitch Protocol Driver                                         
+VmsProxy                           VmSwitch Proxy Driver                                            
+volmgr                             卷管理器驱动程序                                                 
+volmgrx                            Dynamic Volume Manager                                           
+volsnap                            卷映像复制驱动程序                                               
+volume                             卷驱动程序                                                       
+vpcivsp                            Microsoft Hyper-V PCI 服务器                                     
+vwifibus                           虚拟无线总线驱动程序                                             
+vwififlt                           Virtual WiFi Filter Driver                                       
+vwifimp                            虚拟 WiFi 微型端口服务                                           
+wanarp                             远程访问 IP ARP 驱动程序                                         
+wcifs                              Windows Container Isolation                                      
+Wdf01000                           Kernel Mode Driver Frameworks service                            
+wdiwifi                            WDI Driver Framework                                             
+WFPLWFS                            Microsoft Windows 筛选平台                                       
+WindowsTrustedRT                   Windows Trusted Execution Environment Class Extension            
+WindowsTrustedRTProxy              Microsoft Windows 可信运行时安全服务                             
+WINUSB                             WinUsb 驱动程序                                                  
+WmiAcpi                            Microsoft Windows Management Interface for ACPI                  
+Wof                                Windows Overlay File System Filter Driver                        
+wtd                                wtd                                                              
+WUDFRd                             Windows Driver Foundation - User-mode Driver Framework Reflector 
+WUDFWpdFs                          WPD 文件系统驱动程序                                             
+WUDFWpdMtp                         WUDFWpdMtp                                                       
+XTUComponent                       XTUComponent                                                     
+
+
+DONE_DRV

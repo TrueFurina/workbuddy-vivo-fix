@@ -1,0 +1,32 @@
+=== D:\WorkBuddy 最近修改的 20 个文件 ===
+  09-21 17:46:46   297824931  \resources\app.asar
+  09-19 22:37:09       53466  \debug.log
+  09-18 09:15:18      241696  \Uninstall WorkBuddy.exe
+  09-18 09:15:08      922112  \vulkan-1.dll
+  09-18 09:15:08         106  \vk_swiftshader_icd.json
+  09-18 09:15:08     5532160  \vk_swiftshader.dll
+  09-18 09:15:08          11  \version
+  09-18 09:15:08      699577  \v8_context_snapshot.bin
+  09-18 09:15:08      321542  \snapshot_blob.bin
+  09-18 09:15:08       13752  \share-target\WorkBuddyShareTarget.pdb
+  09-18 09:15:08    92935360  \share-target\WorkBuddyShareTarget.exe
+  09-18 09:15:08    18755291  \resources\vendor\python.zip
+  09-18 09:15:08   112165745  \resources\vendor\node.zip
+  09-18 09:15:08     2670360  \resources\vendor\genie-trash\win32-x64.exe
+  09-18 09:15:08    56373885  \resources\vendor\PortableGit.zip
+  09-18 09:15:08       49412  \resources\startup-report.html
+  09-18 09:15:08        8039  \resources\scripts\update-progress.ps1
+  09-18 09:15:08        2415  \resources\scripts\launch-update-progress.vbs
+  09-18 09:15:08      241712  \resources\qm\qm-helper.exe
+  09-18 09:15:08     1243136  \resources\qimei.dll
+  最新改动时间: 09-21 17:46:46 (距今 19135.8 分钟)
+  >>> 若最新改动远早于 00:02(本次安装尝试), 说明安装器根本没开始写文件 = 卡在写文件之前
+--- NSIS 临时目录内容 ---
+  nsm2E93.tmp (39.9分钟前, 文件数=4): ['nsExec.dll', 'StdUtils.dll', 'System.dll', 'UAC.dll']
+  nsv9F82.tmp (39.9分钟前, 文件数=5): ['nsExec.dll', 'old-uninstaller.exe', 'StdUtils.dll', 'System.dll', 'UAC.dll']
+--- D:\WorkBuddy 根目录是否有安装残留 ---
+  残留候选: ['ffmpeg.dll.bak', 'Uninstall WorkBuddy.exe']
+--- 进程 ---
+  WorkBuddy.exe 数量: 12
+  安装器进程: 无
+  辅助进程(qm/sidecar/wscript): 无

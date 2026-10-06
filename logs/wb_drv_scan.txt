@@ -1,0 +1,128 @@
+=== 注册表驱动扫描 (共 880 个服务键) ===
+--- 命中网络/过滤/安全关键字的第三方驱动 ---
+  DRV aicusbwifi                 start=DEMAND(按需)           group=NDIS       img=\SystemRoot\System32\drivers\aicusbwifi.sys
+  DRV bfs                        start=AUTO(开机自启)           group=FSFilter Virtualization img=\SystemRoot\system32\drivers\bfs.sys
+  DRV bindflt                    start=AUTO(开机自启)           group=FSFilter Top img=\SystemRoot\system32\drivers\bindflt.sys
+  DRV BthMini                    start=DEMAND(按需)           group=PNP Filter img=\SystemRoot\System32\drivers\BTHMINI.sys
+  DRV BthPan                     start=DEMAND(按需)           group=NDIS       img=\SystemRoot\System32\drivers\bthpan.sys
+  DRV BTHPORT                    start=DEMAND(按需)           group=PNP Filter img=\SystemRoot\System32\drivers\BTHport.sys
+  DRV BTHUSB                     start=DEMAND(按需)           group=PNP Filter img=\SystemRoot\System32\drivers\BTHUSB.sys
+  DRV bttflt                     start=BOOT(内核启动即加载)        group=PnP Filter img=System32\drivers\bttflt.sys
+  DRV CisUtMonitor               start=DEMAND(按需)           group=FSFilter Activity Monitor img=\SystemRoot\system32\DRIVERS\CisUtMonitor.sys
+  DRV CldFlt                     start=AUTO(开机自启)           group=FSFilter HSM img=system32\drivers\cldflt.sys
+  DRV CLFS                       start=BOOT(内核启动即加载)        group=Filter     img=System32\drivers\CLFS.sys
+  DRV FileCrypt                  start=SYSTEM               group=FSFilter Encryption img=system32\drivers\filecrypt.sys
+  DRV FileInfo                   start=BOOT(内核启动即加载)        group=FSFilter Bottom img=System32\drivers\fileinfo.sys
+  DRV Filetrace                  start=DEMAND(按需)           group=FSFilter Activity Monitor img=system32\drivers\filetrace.sys
+  DRV FltMgr                     start=BOOT(内核启动即加载)        group=FSFilter Infrastructure img=system32\drivers\fltmgr.sys
+  DRV FsDepends                  start=DEMAND(按需)           group=FSFilter Top img=System32\drivers\FsDepends.sys
+  DRV fse                        start=BOOT(内核启动即加载)        group=NDIS Wrapper img=system32\drivers\fse.sys
+  DRV fvevol                     start=BOOT(内核启动即加载)        group=PnP Filter img=System32\DRIVERS\fvevol.sys
+  DRV hnswfpdriver               start=DEMAND(按需)           group=NDIS       img=System32\drivers\hnswfpdriver.sys
+  DRV ibbus                      start=DEMAND(按需)           group=PnP Filter img=\SystemRoot\System32\drivers\ibbus.sys
+  DRV ibtusb                     start=DEMAND(按需)           group=PNP Filter img=\SystemRoot\System32\DriverStore\FileRepository\ibtusb.inf_amd64_e93919bfbf681d06\ibtusb.sys
+  DRV iorate                     start=BOOT(内核启动即加载)        group=PnP Filter img=system32\drivers\iorate.sys
+  DRV IpFilterDriver             start=DEMAND(按需)           group=None       img=system32\DRIVERS\ipfltdrv.sys
+  DRV kdnic                      start=DEMAND(按需)           group=NDIS       img=\SystemRoot\System32\drivers\kdnic.sys
+  DRV kdnic_legacy               start=DEMAND(按需)           group=NDIS       img=\SystemRoot\System32\drivers\kdnic_legacy.sys
+  DRV ksthunk                    start=DEMAND(按需)           group=PNP Filter img=\SystemRoot\system32\drivers\ksthunk.sys
+  DRV l1vhlwf                    start=AUTO(开机自启)           group=NDIS       img=System32\drivers\l1vhlwf.sys
+  DRV l2bridge                   start=DEMAND(按需)           group=NDIS       img=System32\drivers\l2bridge.sys
+  DRV lltdio                     start=AUTO(开机自启)           group=NDIS       img=system32\drivers\lltdio.sys
+  DRV LnCoolit                   start=SYSTEM               group=FSFilter Activity Monitor img=system32\DRIVERS\LnCoolit.sys
+  DRV LnvDrvFdn                  start=SYSTEM               group=FSFilter Activity Monitor img=system32\DRIVERS\LnvDrvFdn.sys
+  DRV lnvscenter                 start=SYSTEM               group=PNP_TDI    img=system32\DRIVERS\lnvscenter.sys
+  DRV lrtp                       start=SYSTEM               group=FSFilter Activity Monitor img=system32\DRIVERS\lrtp.sys
+  DRV luafv                      start=AUTO(开机自启)           group=FSFilter Virtualization img=\SystemRoot\system32\drivers\luafv.sys
+  DRV mlx4_bus                   start=DEMAND(按需)           group=NDIS       img=\SystemRoot\System32\drivers\mlx4_bus.sys
+  DRV MsBridge                   start=DEMAND(按需)           group=NDIS       img=System32\drivers\bridge.sys
+  DRV MsLldp                     start=AUTO(开机自启)           group=NDIS       img=system32\drivers\mslldp.sys
+  DRV NativeWifiP                start=DEMAND(按需)           group=NDIS       img=system32\DRIVERS\nwifi.sys
+  DRV ndfltr                     start=DEMAND(按需)           group=PNP Filter img=\SystemRoot\System32\drivers\ndfltr.sys
+  DRV NDIS                       start=BOOT(内核启动即加载)        group=NDIS Wrapper img=system32\drivers\ndis.sys
+  DRV NdisCap                    start=SYSTEM               group=NDIS       img=System32\drivers\ndiscap.sys
+  DRV NdisImPlatform             start=DEMAND(按需)           group=None       img=System32\drivers\NdisImPlatform.sys
+  DRV NdisTapi                   start=DEMAND(按需)           group=NDIS       img=System32\DRIVERS\ndistapi.sys
+  DRV Ndisuio                    start=DEMAND(按需)           group=NDIS       img=system32\drivers\ndisuio.sys
+  DRV NdisVirtualBus             start=DEMAND(按需)           group=           img=\SystemRoot\System32\drivers\NdisVirtualBus.sys
+  DRV NdisWan                    start=DEMAND(按需)           group=           img=\SystemRoot\System32\drivers\ndiswan.sys
+  DRV ndiswanlegacy              start=DEMAND(按需)           group=NDIS       img=System32\DRIVERS\ndiswan.sys
+  DRV netrtp                     start=DEMAND(按需)           group=FSFilter Activity Monitor img=system32\DRIVERS\netrtp.sys
+  DRV Netwtw14                   start=DEMAND(按需)           group=NDIS       img=\SystemRoot\System32\drivers\Netwtw14.sys
+  DRV npcap                      start=SYSTEM               group=NDIS       img=\SystemRoot\system32\DRIVERS\npcap.sys
+  DRV OrayUSBVHCI                start=DEMAND(按需)           group=Extended Base img=\SystemRoot\System32\drivers\OrayUSBVHCI.sys
+  DRV OrayVGC                    start=SYSTEM               group=None       img=\SystemRoot\System32\drivers\OrayVGC.sys
+  DRV portcfg                    start=DEMAND(按需)           group=PnP Filter img=\SystemRoot\System32\drivers\portcfg.sys
+  DRV Psched                     start=SYSTEM               group=NDIS       img=System32\drivers\pacer.sys
+  DRV rdyboost                   start=BOOT(内核启动即加载)        group=PnP Filter img=System32\drivers\rdyboost.sys
+  DRV rspndr                     start=AUTO(开机自启)           group=NDIS       img=system32\drivers\rspndr.sys
+  DRV RtkBtFilter                start=DEMAND(按需)           group=PNP Filter img=\SystemRoot\System32\drivers\RtkBtfilter.sys
+  DRV RtlWlanu                   start=DEMAND(按需)           group=NDIS       img=\SystemRoot\System32\drivers\rtwlanu.sys
+  DRV rtucx21x64                 start=DEMAND(按需)           group=NDIS       img=\SystemRoot\System32\DriverStore\FileRepository\rtucx21x64.inf_amd64_286645bc82b2f9fb\rtucx21x64.sys
+  DRV rtwlane602                 start=DEMAND(按需)           group=NDIS       img=\SystemRoot\System32\drivers\rtwlane602.sys
+  DRV scfilter                   start=DEMAND(按需)           group=PnP Filter img=System32\DRIVERS\scfilter.sys
+  DRV Serenum                    start=DEMAND(按需)           group=PNP Filter img=\SystemRoot\System32\drivers\serenum.sys
+  DRV storqosflt                 start=AUTO(开机自启)           group=FSFilter Quota Management img=system32\drivers\storqosflt.sys
+  DRV ThermalFilter              start=DEMAND(按需)           group=None       img=\SystemRoot\System32\DriverStore\FileRepository\c_thermal.inf_amd64_b0db444d499ca6d4\ThermalFilter.s
+  DRV ToDeskAudio                start=DEMAND(按需)           group=None       img=\SystemRoot\System32\drivers\ToDeskAudio.sys
+  DRV tunnel                     start=DEMAND(按需)           group=NDIS       img=System32\drivers\tunnel.sys
+  DRV UCPD                       start=SYSTEM               group=FSFilter Activity Monitor img=system32\drivers\UCPD.sys
+  DRV UnionFS                    start=AUTO(开机自启)           group=FSFilter HSM img=\SystemRoot\system32\drivers\UnionFS.sys
+  DRV usbrndis6                  start=DEMAND(按需)           group=NDIS       img=\SystemRoot\System32\drivers\usb80236.sys
+  DRV uunetfilter                start=DEMAND(按需)           group=None       img=\??\C:\Windows\System32\drivers\uunetfilter.sys
+  DRV VBoxNetAdp                 start=DEMAND(按需)           group=NDIS       img=\SystemRoot\system32\DRIVERS\VBoxNetAdp6.sys
+  DRV VBoxNetLwf                 start=SYSTEM               group=NDIS       img=\SystemRoot\system32\DRIVERS\VBoxNetLwf.sys
+  DRV VBoxSup                    start=SYSTEM               group=None       img=\SystemRoot\system32\DRIVERS\VBoxSup.sys
+  DRV VBoxUSBMon                 start=SYSTEM               group=None       img=\SystemRoot\system32\DRIVERS\VBoxUSBMon.sys
+  DRV VfpExt                     start=SYSTEM               group=NDIS       img=system32\drivers\vfpext.sys
+  DRV VMSP                       start=AUTO(开机自启)           group=NDIS       img=System32\drivers\vmswitch.sys
+  DRV VMSVSF                     start=DEMAND(按需)           group=NDIS       img=System32\drivers\vmswitch.sys
+  DRV VMSVSP                     start=DEMAND(按需)           group=NDIS       img=System32\drivers\vmswitch.sys
+  DRV vwififlt                   start=SYSTEM               group=NDIS       img=System32\drivers\vwififlt.sys
+  DRV vwifimp                    start=DEMAND(按需)           group=NDIS       img=\SystemRoot\System32\DriverStore\FileRepository\netvwifimp.inf_amd64_2b7a99c97634cfaa\vwifimp.sys
+  DRV wanarp                     start=AUTO(开机自启)           group=NDIS       img=System32\DRIVERS\wanarp.sys
+  DRV wanarpv6                   start=DEMAND(按需)           group=NDIS       img=System32\DRIVERS\wanarp.sys
+  DRV wcifs                      start=AUTO(开机自启)           group=FSFilter Virtualization img=\SystemRoot\system32\drivers\wcifs.sys
+  DRV WdFilter                   start=DISABLED             group=FSFilter Anti-Virus img=system32\drivers\wd\WdFilter.sys
+  DRV WdmCompanionFilter         start=DEMAND(按需)           group=base       img=system32\drivers\WdmCompanionFilter.sys
+  DRV WFPLWFS                    start=BOOT(内核启动即加载)        group=PNP_TDI    img=System32\drivers\wfplwfs.sys
+  DRV WIMMount                   start=DEMAND(按需)           group=FSFilter Infrastructure img=system32\drivers\wimmount.sys
+  DRV WinMad                     start=DEMAND(按需)           group=PNP Filter img=\SystemRoot\System32\drivers\winmad.sys
+  DRV WinVerbs                   start=DEMAND(按需)           group=PNP Filter img=\SystemRoot\System32\drivers\winverbs.sys
+  DRV Wof                        start=BOOT(内核启动即加载)        group=FSFilter Compression img=None
+  DRV WpdUpFltr                  start=DEMAND(按需)           group=PnP Filter img=System32\drivers\WpdUpFltr.sys
+  DRV xboxgip                    start=DEMAND(按需)           group=NDIS       img=\SystemRoot\System32\drivers\xboxgip.sys
+--- NSIS 解压目录活动状态 ---
+  NSIS nsm2E93.tmp 最后改动=32.2分钟前 文件数=4 <-- 停滞(安装器卡死嫌疑)
+  NSIS nsv9F82.tmp 最后改动=32.2分钟前 文件数=5 <-- 停滞(安装器卡死嫌疑)
+--- qm-uninstall.log 尾部30 ---
+[2026-09-19T17:51:05] [QmProtector] qm-uninstall.exe command=suspend
+[2026-09-19T17:51:05] [QmProtector] arg=D:\WorkBuddy\resources\app.asar.unpacked\resources\plugins\workbuddy-builtin\builtin-plugins\weixinpay\prebuilds\win32-x64
+[2026-09-19T17:51:05] [QmProtector] caller parent PID=16028 path=D:\WorkBuddy\WorkBuddy.exe
+[2026-09-19T17:51:05] [QmProtector] caller signer=Tencent Technology (Shenzhen) Company Limited chainTrusted=1 result=OK
+[2026-09-19T17:51:05] [QmProtector] DLL loaded OK (verified Tencent-signed)
+[2026-09-19T17:51:05] [QmProtector] Initialize=0x80000002
+[2026-09-19T17:51:11] [QmProtector] qm-uninstall.exe command=suspend
+[2026-09-19T17:51:11] [QmProtector] arg=D:\WorkBuddy\resources\app.asar.unpacked\resources\plugins\workbuddy-builtin\builtin-plugins\weixinpay\prebuilds\win32-x64
+[2026-09-19T17:51:11] [QmProtector] caller parent PID=7244 path=C:\Users\Lenovo\AppData\Local\Temp\workbuddy-update-x64\WorkBuddy-Setup-5.5.6.38337834.exe
+[2026-09-19T17:51:11] [QmProtector] caller signer=Tencent Technology (Shenzhen) Company Limited chainTrusted=1 result=OK
+[2026-09-19T17:51:11] [QmProtector] DLL loaded OK (verified Tencent-signed)
+[2026-09-19T17:51:11] [QmProtector] Initialize=0x80000002
+[2026-10-05T00:02:02] [QmProtector] qm-uninstall.exe command=suspend
+[2026-10-05T00:02:02] [QmProtector] arg=D:\WorkBuddy\resources\app.asar.unpacked\resources\plugins\workbuddy-builtin\builtin-plugins\weixinpay\prebuilds\win32-x64
+[2026-10-05T00:02:03] [QmProtector] caller parent PID=26704 path=D:\WorkBuddy\WorkBuddy.exe
+[2026-10-05T00:02:03] [QmProtector] caller signer=Tencent Technology (Shenzhen) Company Limited chainTrusted=1 result=OK
+[2026-10-05T00:02:03] [QmProtector] DLL loaded OK (verified Tencent-signed)
+[2026-10-05T00:02:03] [QmProtector] Initialize=0x80000002
+[2026-10-05T00:02:39] [QmProtector] qm-uninstall.exe command=suspend
+[2026-10-05T00:02:39] [QmProtector] arg=D:\WorkBuddy\resources\app.asar.unpacked\resources\plugins\workbuddy-builtin\builtin-plugins\weixinpay\prebuilds\win32-x64
+[2026-10-05T00:02:41] [QmProtector] caller parent PID=28416 path=C:\Users\Lenovo\AppData\Local\Temp\workbuddy-update-x64\WorkBuddy-Setup-5.6.2.39298511.exe
+[2026-10-05T00:02:41] [QmProtector] caller signer=Tencent Technology (Shenzhen) Company Limited chainTrusted=1 result=OK
+[2026-10-05T00:02:41] [QmProtector] DLL loaded OK (verified Tencent-signed)
+[2026-10-05T00:02:41] [QmProtector] Initialize=0x80000002
+[2026-10-05T00:22:36] [QmProtector] qm-uninstall.exe command=suspend
+[2026-10-05T00:22:36] [QmProtector] arg=D:\WorkBuddy\resources\app.asar.unpacked\resources\plugins\workbuddy-builtin\builtin-plugins\weixinpay\prebuilds\win32-x64
+[2026-10-05T00:22:36] [QmProtector] caller parent PID=26920 path=D:\WorkBuddy\WorkBuddy.exe
+[2026-10-05T00:22:36] [QmProtector] caller signer=Tencent Technology (Shenzhen) Company Limited chainTrusted=1 result=OK
+[2026-10-05T00:22:36] [QmProtector] DLL loaded OK (verified Tencent-signed)
+[2026-10-05T00:22:36] [QmProtector] Initialize=0x80000002

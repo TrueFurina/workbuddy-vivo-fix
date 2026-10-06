@@ -1,0 +1,19 @@
+=== 16620 是否还在 ===
+GONE: 进程已消失
+=== pcsuite/vivo/2.0 进程 ===
+
+  Id Name                                        Path
+  -- ----                                        ----
+2136 152.0.7977.76_chrome_installer_uncompressed 
+4812 MicrosoftEdge_X64_152.0.4191.66             
+
+
+=== pending 目录内容 ===
+
+Name             LastWriteTime       Length
+----             -------------       ------
+2.0.exe          2026/9/7 1:31:48 464905064
+update-info.json 2026/9/7 1:31:48       153
+
+
+DONE
